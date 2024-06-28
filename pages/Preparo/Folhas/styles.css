@@ -203,7 +203,7 @@ img {
 
 
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -218,6 +218,7 @@ img {
     img {
         border-radius: 5px;
         width: 250px;
+        height: 250px;
         box-shadow: 10px 10px 10px rgb(126, 102, 74);
     }
 
