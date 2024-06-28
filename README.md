@@ -1,6 +1,6 @@
 # Projeto criacao de pagina
   Esse e um site para um trabalho da faculdade referete as informações da mandioca, onde deveria transformar o prototipo de baixa e de alta fidelidade em codigo e aplicar alterações vendo sua necessidade.
-(Fiz mudanças nno menu nonde acresentei um imagem em todas as telas, menu fixo, acrestenei uma box shadow, e coloquei um poco de responsividade)
+(Fiz mudanças no menu onde acresentei um imagem em todas as telas, menu fixo, acresentei uma box shadow nas imagens da tela, e coloquei um poco de responsividade)
 
 # Deploy
 https://77eduardo.github.io/Site_Cassava/
