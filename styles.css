@@ -92,8 +92,8 @@
 
     background: #F7DFC3;  
 
-    margin: 0;
-    padding: 0;  
+    margin-bottom: 100px;
+    padding-top: 40px;
 
     display: flex;
 }
@@ -103,6 +103,7 @@
     display: flex;  
     justify-content: center;
     align-items: center;
+
 }
 .escAMandioca{
     width: 85%;
