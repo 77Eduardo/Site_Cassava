@@ -170,6 +170,8 @@ a{
 }
 img{
     border-radius: 5px;    
+
+    box-shadow: 10px 10px 10px rgb(126, 102, 74);
 }
 
 
