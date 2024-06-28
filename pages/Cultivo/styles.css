@@ -166,3 +166,20 @@ a{
 img{
     border-radius: 5px;    
 }
+
+
+
+.d2Img{
+    width: 20%;
+    height: 240px;    
+    position: fixed;
+    box-shadow: none;
+}
+.d2img{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+}

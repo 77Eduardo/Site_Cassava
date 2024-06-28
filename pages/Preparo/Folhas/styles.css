@@ -171,3 +171,21 @@ a{
 img{
     border-radius: 5px;    
 }
+
+
+
+
+.d3{
+    width: 15%;
+    height: 200px;    
+    position: fixed;
+    box-shadow: none;
+}
+.d3img{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+}
