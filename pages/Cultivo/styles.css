@@ -185,3 +185,16 @@ img{
 
     height: 100%;
 }
+
+
+@media screen and (min-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+  }
