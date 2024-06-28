@@ -86,14 +86,23 @@
 }
 /*------------------------------------------------------------*/
 
-.areaPrincipal{
+.areaInfo{
     width: 80%;
-    height: 100vh;
 
     background: #F7DFC3;  
 
-    margin-bottom: 100px;
-    padding-top: 40px;
+    margin: 0;
+    padding: 0;  
+
+    display: flex;
+    flex-direction: column;
+}
+
+.areaPrincipal{
+    background: #F7DFC3;  
+
+    margin: 0;
+    padding: 0;  
 
     display: flex;
 }
@@ -103,15 +112,15 @@
     display: flex;  
     justify-content: center;
     align-items: center;
+    
+    margin-top: 70px;
+    padding-bottom: 100px;
 
 }
+
 .escAMandioca{
     width: 85%;
 }
-
-
-
-
 
 .imagemAMandioca{
     width: 50%;
