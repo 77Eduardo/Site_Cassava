@@ -1,18 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.conteiner{
+.conteiner {
     display: flex;
     flex-direction: column;
 }
-.conteiner2{
+
+.conteiner2 {
     display: flex;
     flex-direction: row;
 
 }
-.titulo{
+
+.titulo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +23,7 @@
 }
 
 /*----------------------MENU------------------------*/
-.menu_nav{
+.menu_nav {
     height: 100vh;
     width: 20%;
 
@@ -32,25 +34,25 @@
 
 }
 
-.menu{
+.menu {
     position: fixed;
 
-    list-style:none;
+    list-style: none;
     padding: 0;
-    margin: 0;   
-    
+    margin: 0;
+
     border: none;
     cursor: pointer;
 
     height: 290px;
 }
 
-.menu li a{
-    color: #000000; 
-    text-decoration:none; 
-    padding:10px; 
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
     margin-bottom: 10px;
-    display:block;
+    display: block;
 
 
     font-family: 'Noto Sans';
@@ -58,7 +60,8 @@
     font-weight: 400;
 }
 
-.menu li a:hover, .menu li a.selected {
+.menu li a:hover,
+.menu li a.selected {
     background: #0a62d4;
     color: #ffffff;
     box-shadow: 0 3px 10px 0 #ffffff;
@@ -70,12 +73,12 @@
     padding: 0;
     margin: 0;
     margin-top: 10px;
-    padding-left: 20px; 
+    padding-left: 20px;
 
-        
+
 }
 
-.menu li.open > ul {
+.menu li.open>ul {
     display: block;
 
 }
@@ -84,57 +87,60 @@
     margin-bottom: 5px;
     display: block;
 }
+
 /*-------------------------------------------------------*/
-.areaInfo{
+.areaInfo {
     width: 80%;
 
 
-    background: #F7DFC3;  
+    background: #F7DFC3;
 
     margin: 0;
-    padding: 0;  
+    padding: 0;
 
     display: flex;
     flex-direction: column;
 }
 
-.areaPrincipal{
-    background: #F7DFC3;  
+.areaPrincipal {
+    background: #F7DFC3;
 
     margin: 0;
-    padding: 0;  
+    padding: 0;
 
     display: flex;
 }
 
 
-.escrita{
+.escrita {
     width: 50%;
-    
-    display: flex;  
+
+    display: flex;
     justify-content: center;
     align-items: center;
 
     margin-top: 70px;
     padding-bottom: 100px;
 }
-.escAMandioca{
+
+.escAMandioca {
     width: 85%;
     align-items: center;
 
 }
 
 
-.imagemAMandioca{
+.imagemAMandioca {
     width: 50%;
     align-content: center;
 }
-img{
+
+img {
     width: 523px;
     height: 372px;
 }
 
-h1{
+h1 {
     font-family: 'Poppins';
     font-size: 20px;
     font-weight: 500;
@@ -142,42 +148,44 @@ h1{
     text-align: center;
 }
 
-.infoDetalhe{
+.infoDetalhe {
     font-family: 'Poppins';
     font-size: 16px;
-    font-weight: 500;  
+    font-weight: 500;
 }
 
-p{
+p {
     font-family: 'Noto Sans';
     font-size: 16px;
     font-weight: 400;
 }
 
-a{
+a {
     text-decoration: none;
     cursor: pointer;
 }
 
-.imagemAMandioca{
+.imagemAMandioca {
     text-align: center;
     align-content: center;
 }
-img{
-    border-radius: 5px;  
-    
+
+img {
+    border-radius: 5px;
+
     box-shadow: 10px 10px 10px rgb(126, 102, 74);
 }
 
 
 
-.d2Img{
+.d2Img {
     width: 20%;
-    height: 240px;    
+    height: 240px;
     position: fixed;
     box-shadow: none;
 }
-.d2img{
+
+.d2img {
     display: flex;
 
     flex-direction: column;
@@ -197,4 +205,11 @@ img{
         display: flex;
         flex-direction: column;
     }
-  }
+
+    img {
+        border-radius: 5px;
+        width: 250px;
+        box-shadow: 10px 10px 10px rgb(126, 102, 74);
+    }
+
+}
